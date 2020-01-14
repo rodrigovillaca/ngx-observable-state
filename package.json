@@ -1,42 +1,42 @@
 {
-  "name": "ngx-observable-state",
-  "version": "0.0.16",
-  "description": "Angular version for a simple and effective state management for rxjs applications.",
-  "repository": "https://rodrigovillaca@github.com/rodrigovillaca/ngx-observable-state.git",
-  "homepage": "https://github.com/rodrigovillaca/ngx-observable-state",
-  "author": "Rodrigo Villaca <rodrigo.villaca.mcse@gmail.com>",
-  "license": "MIT",
-  "keywords": [
-    "ionic",
-    "rxjs",
-    "ngx",
-    "angular",
-    "angular8",
-    "state",
-    "data",
-    "observable",
-    "observables"
-  ],
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
-  "files": [
-    "dist"
-  ],
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "yarn run lint && rm -rf dist/* && rollup -c",
-    "lint": "./node_modules/.bin/tslint --project ./ -t stylish",
-    "watch": "rollup -cw"
-  },
-  "devDependencies": {
-    "rollup": "^1.27.14",
-    "rollup-plugin-typescript2": "^0.25.3",
-    "tslint": "^5.20.1",
-    "typescript": "^3.7.4",
-    "yarn": "^1.21.1"
-  },
-  "dependencies": {
-    "rxjs-observable-state": "^0.0.16",
-    "@angular/core": "^8.0.0"
-  }
+    "name": "ngx-observable-state",
+    "version": "1.0.7",
+    "description": "Angular version for a simple and effective state management for rxjs applications.",
+    "repository": "https://rodrigovillaca@github.com/rodrigovillaca/ngx-observable-state.git",
+    "homepage": "https://github.com/rodrigovillaca/ngx-observable-state",
+    "author": "Rodrigo Villaca <rodrigo.villaca.mcse@gmail.com>",
+    "license": "MIT",
+    "keywords": [
+        "ionic",
+        "rxjs",
+        "ngx",
+        "angular",
+        "angular8",
+        "state",
+        "data",
+        "observable",
+        "observables"
+    ],
+    "main": "dist/index.js",
+    "module": "dist/index.es.js",
+    "files": [
+        "dist"
+    ],
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "yarn run lint && rm -rf dist/* && rollup -c",
+        "lint": "./node_modules/.bin/tslint --project ./ -t stylish",
+        "watch": "rollup -cw"
+    },
+    "devDependencies": {
+        "rollup": "^1.27.14",
+        "rollup-plugin-typescript2": "^0.25.3",
+        "tslint": "^5.20.1",
+        "typescript": "^3.7.4",
+        "yarn": "^1.21.1"
+    },
+    "dependencies": {
+        "rxjs-observable-state": "^1.0.4",
+        "@angular/core": "^8.0.0"
+    }
 }
