@@ -1,6 +1,6 @@
 {
     "name": "ngx-observable-state",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "Angular version for a simple and effective state management for rxjs applications.",
     "repository": "https://rodrigovillaca@github.com/rodrigovillaca/ngx-observable-state.git",
     "homepage": "https://github.com/rodrigovillaca/ngx-observable-state",
@@ -36,7 +36,7 @@
         "yarn": "^1.21.1"
     },
     "dependencies": {
-        "rxjs-observable-state": "^1.0.4",
+        "rxjs-observable-state": "^1.0.8",
         "@angular/core": "^8.0.0"
     }
 }
