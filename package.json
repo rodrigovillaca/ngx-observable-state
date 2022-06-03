@@ -37,6 +37,6 @@
     },
     "dependencies": {
         "rxjs-observable-state": "^1.0.8",
-        "@angular/core": "^8.0.0"
+        "@angular/core": "^11.0.5"
     }
 }
